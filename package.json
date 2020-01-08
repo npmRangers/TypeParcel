@@ -1,0 +1,45 @@
+{
+  "name": "typeparcel",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "bin": "bin/typeparcel",
+  "author": "",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NPMRangers/TypeParcel.git"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "typings",
+    "generator"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nyc": {
+    "extension": [
+      ".ts",
+      ".tsx"
+    ],
+    "exclude": [
+      "**/*.d.ts"
+    ]
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "dependencies": {
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.1.4",
+    "mocha": "^7.0.0",
+    "nyc": "^15.0.0",
+    "tslint": "^5.20.1"
+  }
+}
