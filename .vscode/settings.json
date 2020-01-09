@@ -1,3 +1,13 @@
 {
+    "[*]": {
+		"editor.formatOnSave": true
+	},
+	"[json]": {
+		"editor.formatOnSave": false
+	},
+	"tslint.ignoreDefinitionFiles": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.tslint": true
+	},
     "typescript.tsdk": "node_modules/typescript/lib"
 }
